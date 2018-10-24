@@ -8,7 +8,7 @@ define('DB_USER','devuser');
 define('DB_PASSWD','devuser');
 
 } else {
-define('DB_HOST','127.0.0.1');
+define('DB_HOST','172.17.0.1');
 //mysql database user
 define('DB_USER','lg_blog');
 //database password
