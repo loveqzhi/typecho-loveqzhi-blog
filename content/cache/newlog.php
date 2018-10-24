@@ -1,1 +1,0 @@
-<?php exit;//a:5:{i:0;a:2:{s:3:"gid";i:10;s:5:"title";s:17:"nginx安全配置";}i:1;a:2:{s:3:"gid";i:9;s:5:"title";s:43:"程序员的八种级别,你在哪一级？";}i:2;a:2:{s:3:"gid";i:8;s:5:"title";s:50:"linux如何精确定位占用网络流量的进程";}i:3;a:2:{s:3:"gid";i:7;s:5:"title";s:29:"linux如何踢掉在线用户";}i:4;a:2:{s:3:"gid";i:6;s:5:"title";s:26:"centos yum 配置服务器";}}
