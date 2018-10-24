@@ -1,13 +1,26 @@
 <?php
 /**
- * 前端页面加载 test
- * @copyright (c) Emlog All Rights Reserved
+ * Typecho Blog Platform
+ *
+ * @copyright  Copyright (c) 2008 Typecho team (http://www.typecho.org)
+ * @license    GNU General Public License 2.0
+ * @version    $Id: index.php 1153 2009-07-02 10:53:22Z magike.net $
  */
 
-require_once 'init.php';
+/** 载入配置支持 */
+if (!defined('__TYPECHO_ROOT_DIR__') && !@include_once 'config.inc.php') {
+    file_exists('./install.php') ? header('Location: install.php') : print('Missing Config File');
+    exit;
+}
 
-define('TEMPLATE_PATH', TPLS_PATH.Option::get('nonce_templet').'/');//前台模板路径
+/** 初始化组件 */
+Typecho_Widget::widget('Widget_Init');
 
-$emDispatcher = Dispatcher::getInstance();
-$emDispatcher->dispatch();
-View::output();
+/** 注册一个初始化插件 */
+Typecho_Plugin::factory('index.php')->begin();
+
+/** 开始路由分发 */
+Typecho_Router::dispatch();
+
+/** 注册一个结束插件 */
+Typecho_Plugin::factory('index.php')->end();
