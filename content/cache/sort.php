@@ -1,0 +1,1 @@
+<?php exit;//a:2:{i:1;a:8:{s:6:"lognum";i:3;s:8:"sortname";s:9:"技术控";s:11:"description";s:30:"分享来自互联网的技术";s:5:"alias";s:4:"tech";s:3:"sid";i:1;s:5:"taxis";i:1;s:3:"pid";i:0;s:8:"children";a:0:{}}i:2;a:8:{s:6:"lognum";i:0;s:8:"sortname";s:6:"闲聊";s:11:"description";s:21:"寻找自己的路子";s:5:"alias";s:0:"";s:3:"sid";i:2;s:5:"taxis";i:2;s:3:"pid";i:0;s:8:"children";a:0:{}}}

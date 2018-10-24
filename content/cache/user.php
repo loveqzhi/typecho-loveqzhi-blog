@@ -1,0 +1,1 @@
+<?php exit;//a:1:{i:1;a:6:{s:5:"photo";a:3:{s:3:"src";s:49:"content/uploadfile/201401/thum-55cc1389858032.png";s:5:"width";i:140;s:6:"height";i:179;}s:6:"avatar";s:51:"content/uploadfile/201401/thum52-55cc1389858032.png";s:9:"name_orig";s:8:"loveqzhi";s:4:"name";s:8:"loveqzhi";s:4:"mail";s:20:"loveqzhi@hotmail.com";s:3:"des";s:20:"传承、屌丝、IT";}}
