@@ -55,8 +55,10 @@ Typecho_Common::init();
 $db = new Typecho_Db('Pdo_Mysql', 'te_');
 $db->addServer(array (
   'host' => '172.17.0.1',
-  'user' => 'loveqzhi_db_u',
-  'password' => '9f06a76ced9120db51bf2677ce411d77',
+  //'user' => 'loveqzhi_db_u',
+  //'password' => '9f06a76ced9120db51bf2677ce411d77',
+  'user' => 'root',
+  'password' => '123456',
   'charset' => 'utf8',
   'port' => '3306',
   'database' => 'loveqzhi_blog',
